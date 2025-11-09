@@ -305,3 +305,9 @@ h1.main-head {
     font-size: 2.5rem !important;
   }
 }
+
+@media screen and ( max-width: 376px ){
+    h1.main-head {
+    font-size: 1.9rem;
+  }
+}
