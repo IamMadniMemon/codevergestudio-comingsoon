@@ -289,3 +289,19 @@ h1.main-head {
 .flipper-dark-labels .flipper-group label {
   color: #333;
 }
+
+@media screen and ( max-width: 576px ){
+  h1.main-head {
+    font-size: 2rem;
+    line-height: 1.2;
+  }
+
+  .content {
+    font-size: 1rem;
+    line-height: 1.4;
+  }
+
+  .flipper{
+    font-size: 3rem !important;
+  }
+}
