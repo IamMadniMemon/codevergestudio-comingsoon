@@ -1,16 +1,42 @@
-body {
-  background: #333;
-  font-family: sans-serif;
+body{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    background: #BD2329;
+    background: linear-gradient(130deg, rgba(189, 35, 41, 1) 0%, rgba(39, 57, 125, 1) 50%, rgba(27, 161, 163, 1) 100%);
+    color: #fff;
+}
+
+h1.main-head {
+  font-family: "Montserrat", sans-serif;
+  font-weight: 600;
+  font-size: 3rem;
+  line-height: 1;
+  margin-bottom: 0;
+}
+
+.content {
+  font-family: "Poppins", sans-serif;
+  font-weight: 500;
+  font-size: 1.5rem;
+  line-height: 1;
+  margin-bottom: 0;
+  padding-bottom: 40px;
+  padding-top: 20px;
 }
 
 .flipper {
   color: #333;
   display: block;
-  font-size: 50px;
+  font-size: 6rem !important;
   line-height: 100%;
   padding: 0;
   margin: 0;
-  height: 1.7em;
+  height: auto;
+  display: flex;
+  justify-content: center;
 }
 .flipper.flipper-invisible {
   font-size: 0px !important;
